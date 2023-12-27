@@ -10,5 +10,16 @@ const employees = [
     hobbies: ["Cryptocurrency", "Social media"],
   },
 ];
-
-// Start coding here
+const employee1 = {
+    name: "Alicia",
+    age: 29,
+    hobbies: ["Shopping", "Reading novels"],
+  }
+employees.push(employee1)
+const employee2 = {
+    name: "Kody",
+    age: 19,
+    hobbies: ["Computer games", "Wakeboard"],
+  }
+employees.push(employee2)
+console.log(employees)
